@@ -2,8 +2,7 @@
 
 #variables
 celsius = 0
-fahrenheit = 0
-kelvin = 0
+
 
 #entrada
 celsius =int(input("ingresa la temperatura en grados celsius\n"))
