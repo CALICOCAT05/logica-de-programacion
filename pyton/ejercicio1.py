@@ -13,6 +13,8 @@ calificacion_3 = float(input("ingrese la calificacion 3:\n"))
 
 #proceso
 promedio = (calificacion_1 + calificacion_2 + calificacion_3) / 3
-
-#salida
-print(" el promedio de las e calificaciones es =", promedio)
+    
+if (promedio >= 6):
+    print("el promedio es aprobatorio y su valor es",promedio)
+elif(promedio < 6):
+    print("el promedio es reprobatorio y su valor es",promedio)
