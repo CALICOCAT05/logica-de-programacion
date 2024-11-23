@@ -13,8 +13,13 @@ calificacion_3 = float(input("ingrese la calificacion 3:\n"))
 
 #proceso
 promedio = (calificacion_1 + calificacion_2 + calificacion_3) / 3
-    
-if (promedio >= 6):
-    print("el promedio es aprobatorio y su valor es",promedio)
-elif(promedio < 6):
+
+#salida    
+if (promedio > 6 and promedio <= 10 ):
+    print("el promedio es aprobatorio y su valor es", promedio)
+elif(promedio == 6):
+    print("el promedio apenas es aprobatorio y su valor es",promedio)
+elif(promedio < 6 and promedio >= 0):
     print("el promedio es reprobatorio y su valor es",promedio)
+elif(promedio < 0 or promedio > 10):
+    print("promedio no valido")
